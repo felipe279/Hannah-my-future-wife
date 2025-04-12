@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o amor da minha vida / For love of my life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Para o amor da minha vida / For love of my life</h1>
+        <p>Hannah Joy Comstock, mesmo longe, você está no meu coração todos os dias. Essa é uma pequena surpresa para mostrar o quanto eu te amo e estou ansioso pelo nosso futuro juntos. Nosso dia especial está chegando, e eu mal posso esperar para vivê-lo com você. I love you.</p>
+        <iframe src="https://open.spotify.com/embed/track/5jJGGsPnFfNQzocxU4XyGH?utm_source=generator" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <div class="countdown">
+            <p id="countdown"></p>
+        </div>
+        <div class="heart">
+            <span>❤️</span>
+        </div>
+    </div>
+
+    <script>
+        var countdownDate = new Date("Feb 23, 2025 00:00:00").getTime();
+        var countdownFunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countdownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            if (distance <= 0) {
+                document.getElementById("countdown").innerHTML = "It's our special day!";
+            } else {
+                document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m until our special day";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
+    

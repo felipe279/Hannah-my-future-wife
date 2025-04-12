@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para o amor da minha vida / For love of my life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to top, #fff0f5, #ffe4e1);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #ffb6c1;
+      padding: 2rem;
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      color: white;
+    }
+    .image-container {
+      margin: 2rem auto;
+      max-width: 600px;
+    }
+    .image-container img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .spotify {
+      margin: 2rem auto;
+      max-width: 400px;
+    }
+    .date {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #555;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Para o amor da minha vida / For love of my life
+  </header>  <div class="image-container">
+    <img src="https://raw.githubusercontent.com/felipe279/Hannah-my-future-wife/main/public/love-image.jpg" alt="Couple hugging illustration">
+  </div>  <div class="spotify">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4fSIb4hdOQ151TILNsSEaF?utm_source=generator" width="100%" height="80" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>  <div class="date">
+    Nossa data especial: <strong>23/02/2025</strong>
+  </div>  <footer>
+    Feito com carinho por Felipe para Hannah Joy Comstock.
+  </footer>
+</body>
+</html>
